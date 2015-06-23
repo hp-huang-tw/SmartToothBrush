@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+G:\いァ戈┮\碠Α╰参\STM324F\Projects\Example-01\Project-01.uvproj
+Project File Date:  07/19/2014
+
+<h2>Output:</h2>
+Rebuild target '筿狾'
+assembling startup_stm32f429_439xx.s...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_rcc.c...
+compiling main.c...
+compiling stm32f4xx_it.c...
+compiling system_stm32f4xx.c...
+linking...
+Program Size: Code=4396 RO-data=460 RW-data=40 ZI-data=1024  
+FromELF: creating hex file...
+".\output\Project-01.axf" - 0 Error(s), 0 Warning(s).
+Load "G:\\いァ戈┮\\碠Α╰参\\STM324F\\Projects\\Example-01\\output\\Project-01.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+arning(s).
+Load "G:\\いァ戈┮\\碠Α╰参\\STM324F\\Projects\\Example-01\\output\\Project-01.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+utput\Project-01.axf: Error: L6218E: Undefined symbol RCC_AHB1PeriphClockCmd (referred from main.o).
+.\output\Project-01.axf: Error: L6218E: Undefined symbol RCC_APB2PeriphClockCmd (referred from main.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 6 error messages.
+".\output\Project-01.axf" - 6 Error(s), 0 Warning(s).
+Target not created
+axf" - 8 Error(s), 0 Warning(s).
+Target not created
+tm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_wwdg.c...
+linking...
+Program Size: Code=4332 RO-data=460 RW-data=40 ZI-data=1024  
+FromELF: creating hex file...
+".\output\Project-01.axf" - 0 Error(s), 0 Warning(s).
+Load "G:\\いァ戈┮\\碠Α╰参\\STM324F\\Projects\\Example-01\\output\\Project-01.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+RAMInitStruct->FSMC_Bank] = 
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(220): error:  #20: identifier "FSMC_Bank1E" is undefined
+      FSMC_Bank1E->BWTR[FSMC_NORSRAMInitStruct->FSMC_Bank] = 0x0FFFFFFF;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(281): error:  #20: identifier "FSMC_Bank1" is undefined
+      FSMC_Bank1->BTCR[FSMC_Bank] |= BCR_MBKEN_SET;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(286): error:  #20: identifier "FSMC_Bank1" is undefined
+      FSMC_Bank1->BTCR[FSMC_Bank] &= BCR_MBKEN_RESET;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(354): error:  #20: identifier "FSMC_Bank2" is undefined
+      FSMC_Bank2->PCR2 = 0x00000018;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(363): error:  #20: identifier "FSMC_Bank3" is undefined
+      FSMC_Bank3->PCR3 = 0x00000018;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(422): error:  #20: identifier "FSMC_Bank2" is undefined
+      FSMC_Bank2->PCR2 = tmppcr;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(429): error:  #20: identifier "FSMC_Bank3" is undefined
+      FSMC_Bank3->PCR3 = tmppcr;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(481): error:  #20: identifier "FSMC_Bank2" is undefined
+        FSMC_Bank2->PCR2 |= PCR_PBKEN_SET;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(485): error:  #20: identifier "FSMC_Bank3" is undefined
+        FSMC_Bank3->PCR3 |= PCR_PBKEN_SET;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(493): error:  #20: identifier "FSMC_Bank2" is undefined
+        FSMC_Bank2->PCR2 &= PCR_PBKEN_RESET;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(497): error:  #20: identifier "FSMC_Bank3" is undefined
+        FSMC_Bank3->PCR3 &= PCR_PBKEN_RESET;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(521): error:  #20: identifier "FSMC_Bank2" is undefined
+        FSMC_Bank2->PCR2 |= PCR_ECCEN_SET;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(525): error:  #20: identifier "FSMC_Bank3" is undefined
+        FSMC_Bank3->PCR3 |= PCR_ECCEN_SET;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(533): error:  #20: identifier "FSMC_Bank2" is undefined
+        FSMC_Bank2->PCR2 &= PCR_ECCEN_RESET;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(537): error:  #20: identifier "FSMC_Bank3" is undefined
+        FSMC_Bank3->PCR3 &= PCR_ECCEN_RESET;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(557): error:  #20: identifier "FSMC_Bank2" is undefined
+      eccval = FSMC_Bank2->ECCR2;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(562): error:  #20: identifier "FSMC_Bank3" is undefined
+      eccval = FSMC_Bank3->ECCR3;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(617): error:  #20: identifier "FSMC_Bank4" is undefined
+    FSMC_Bank4->PCR4 = 0x00000018; 
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(653): error:  #20: identifier "FSMC_Bank4" is undefined
+    FSMC_Bank4->PCR4 = (uint32_t)FSMC_PCCARDInitStruct->FSMC_Waitfeature |
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(716): error:  #20: identifier "FSMC_Bank4" is undefined
+      FSMC_Bank4->PCR4 |= PCR_PBKEN_SET;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(721): error:  #20: identifier "FSMC_Bank4" is undefined
+      FSMC_Bank4->PCR4 &= PCR_PBKEN_RESET;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(767): error:  #20: identifier "FSMC_Bank2" is undefined
+        FSMC_Bank2->SR2 |= FSMC_IT;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(772): error:  #20: identifier "FSMC_Bank3" is undefined
+        FSMC_Bank3->SR3 |= FSMC_IT;
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(777): error:  #20: identifier "FSMC_Bank4" is undefined
+        FSMC_Bank4->SR4 |= FSMC_IT;    
+lib\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c: 0 warnings, 30 errors
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_hash.c...
+compiling stm32f4xx_hash_md5.c...
+compiling stm32f4xx_hash_sha1.c...
+compiling stm32f4xx_i2c.c...
+compiling stm32f4xx_iwdg.c...
+compiling stm32f4xx_ltdc.c...
+compiling stm32f4xx_pwr.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_rng.c...
+compiling stm32f4xx_rtc.c...
+compiling stm32f4xx_sai.c...
+compiling stm32f4xx_sdio.c...
+compiling stm32f4xx_spi.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_wwdg.c...
+".\output\Project-01.axf" - 30 Error(s), 0 Warning(s).
+Target not created

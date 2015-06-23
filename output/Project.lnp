@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+".\output\startup_stm32f429_439xx.o"
+".\output\stm32f4xx_gpio.o"
+".\output\stm32f4xx_usart.o"
+".\output\stm32f4xx_rcc.o"
+".\output\stm32f4xx_tim.o"
+".\output\misc.o"
+".\output\stm32f4xx_spi.o"
+".\output\stm32f4xx_flash.o"
+".\output\init_interface.o"
+".\output\smartsensor.o"
+".\output\hw_config.o"
+".\output\main.o"
+".\output\stm32f4xx_it.o"
+".\output\system_stm32f4xx.o"
+".\output\tm_stm32f4_disco.o"
+".\output\tm_stm32f4_fonts.o"
+".\output\tm_stm32f4_i2c.o"
+".\output\tm_stm32f4_ili9341.o"
+".\output\tm_stm32f4_spi.o"
+".\output\stm32f4xx_i2c.o"
+--library_type=microlib --strict --scatter ".\output\Project.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\output\Project.map" -o .\output\Project.axf
